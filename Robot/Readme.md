@@ -8,5 +8,5 @@ This is a directory includeing the moduar libraries needed ofr the WheelieBin.in
   - A test (.ino) sketch to ensure the library is functioning correctly 
   
 ######Install:
-1 - Download the folders
-2 - Move/copy to <path to Arduino>/Arduino/Libraries
+1. Download the folders
+2. Move/copy to <path to Arduino>/Arduino/Libraries
