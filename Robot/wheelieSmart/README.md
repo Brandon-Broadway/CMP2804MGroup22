@@ -49,19 +49,19 @@ When the previous instructions have been correctly followed, the robot artefact 
 
 ## **Class-Hierarchy Diagram**
 
-		--------------   -----------------	----------------
-		|  Motors.h  |	 | IR_Sensors.h  |	| UltraSound.h |
-		--------------	 -----------------  ----------------
+        --------------   -----------------	----------------
+        |  Motors.h  |	 | IR_Sensors.h  |	| UltraSound.h |
+        --------------	 -----------------  ----------------
 			    ^				 ^	    	    ^
-				 \				 |   		   /
-				  \				 |	     	  /
-				   \			 |           /
-				   has 		    has        has
-				    a 			 a         a
-			         \			 |	      /
-			          --------------------
-			          |	WheelieSmart.h   |				
-			          --------------------
+                 \               |             /
+                  \              |            /
+                   \             |           /
+                   has          has        has
+                    a            a         a
+                     \           |        /
+                      --------------------
+                      |	WheelieSmart.h   |				
+                      --------------------
 
 
 
