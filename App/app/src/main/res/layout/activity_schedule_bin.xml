@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScheduleBin">
+
+    <Button
+        android:id="@+id/update_schedule_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/dark_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/update_schedule_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sunday_btn" />
+
+    <TextView
+        android:id="@+id/timeTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Time"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/saturday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/saturday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/sunday_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/friday_btn" />
+
+    <Button
+        android:id="@+id/sunday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/sunday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/update_schedule_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saturday_btn" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="280dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="casual"
+        android:text="@string/title"
+        android:textColor="#585858 "
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/monday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/monday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/tuesday_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/tuesday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/tuesday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/wednesday_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monday_btn" />
+
+    <Button
+        android:id="@+id/wednesday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/wednesday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/thursday_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tuesday_btn" />
+
+    <Button
+        android:id="@+id/friday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/friday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/saturday_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thursday_btn" />
+
+    <Button
+        android:id="@+id/thursday_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:background="@drawable/light_rounded"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/thursday_btn"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/friday_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wednesday_btn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
