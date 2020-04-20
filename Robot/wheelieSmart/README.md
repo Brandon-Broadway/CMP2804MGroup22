@@ -60,7 +60,7 @@ When the previous instructions have been correctly followed, the robot artefact 
                     a            a         a
                      \           |        /
                       --------------------
-                      |	WheelieSmart.h   |				
+                      |  WheelieSmart.h  |				
                       --------------------
 
 
