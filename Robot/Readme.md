@@ -1,16 +1,3 @@
-# **Modular Libraries**
-
-This is a directory includeing the moduar libraries needed ofr the WheelieBin.ino sketch to operate.
-
-###### Inlcluded for each library is:
-  - .cpp && .h files
-  - README.txt docs
-  - A test (.ino) sketch to ensure the library is functioning correctly 
-  
-###### Install:
-1. Download the folders
-2. Move/copy to <path to Arduino>/Arduino/Libraries
-
 # **WheelieBin.ino**
 
 ## **The Problem**
@@ -78,7 +65,21 @@ When the previous instructions have been correctly followed, the robot artefact 
 
 
 
-## **Conclusion** 
-This solution contains many good individual parts and I hope that some of them may be of use to people.
+# **Modular Libraries**
 
+This is a directory includeing the moduar libraries needed ofr the WheelieBin.ino sketch to operate.
+
+###### Inlcluded for each library is:
+  - .cpp && .h files
+  - README.txt docs
+  - A test (.ino) sketch to ensure the library is functioning correctly 
+  
+###### Install:
+1. Download the folders
+2. Move/copy to <path to Arduino>/Arduino/Libraries
+
+
+
+# **Conclusion** 
+This solution contains many good individual parts and I hope that some of them may be of use to people.
 If you have any questions, suggestions or issues with the contents of this directory please get in touch or make a pull request.
