@@ -31,23 +31,17 @@ class AddNewBin : AppCompatActivity() {
         //On button press.
         submitBtn.setOnClickListener {
 
-            val newBin = Bin() //Newbin value.
-            //If value is not default
-            if(binCodeTemp.text.toString() != "Bin Code")
-            {
+            val newBin = Bin() //Newbin value.          
                 //Goes through each item in bin list and checks to make sure that code is not being used.
-                for ((index, value) in binList.withIndex()) {
-                    if (value.bCode == binCodeTemp.text.toString()) {
+                for ((index, value) in binList.withIndex()) { //For each value in the bin list
+                    if (value.bCode == binCodeTemp.text.toString()) { //Checks to see if that value is already being used
                         println("Please enter a valid bin name!")
-                        codeCheck = true
+                        codeCheck = true //Stops application from using that bin code.
                         break
                     }
                 }
-            }
-
-            //Does the same process for the bin name.
-            if(binNameTemp.text.toString() != "Bin Name")
-            {
+            
+            //Repeats the same process for the bin name.
                 for ((index, value) in binList.withIndex()) {
                     if (value.bName == binNameTemp.text.toString()) {
                         println("Please enter a valid bin name!")
@@ -55,7 +49,7 @@ class AddNewBin : AppCompatActivity() {
                         break
                     }
                 }
-            }
+            
             //As long as the appropriate booleans are false (the code and the name are not being used or default), the newBin code and name will be changed.
             if(!codeCheck)
             {
